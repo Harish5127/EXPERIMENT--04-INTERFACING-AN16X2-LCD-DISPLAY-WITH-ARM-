@@ -269,9 +269,9 @@ int main(void)
       Lcd_HandleTypeDef lcd;
       lcd = Lcd_create(ports, pins, GPIOB, GPIO_PIN_0, GPIOB, GPIO_PIN_1, LCD_4_BIT_MODE);
       Lcd_cursor(&lcd, 0,1);
-      Lcd_string(&lcd, "Kanagavel A K");
+      Lcd_string(&lcd, "harish");
       Lcd_cursor(&lcd, 1,1);
-      Lcd_string(&lcd, "212223230096");
+      Lcd_string(&lcd, "11191");
   /* USER CODE END 2 */
 
   /* Infinite loop */
@@ -408,7 +408,8 @@ void assert_failed(uint8_t *file, uint32_t line)
 
 ## Output screen shots of proteus  :
 
-![pmc_ex4_before](https://github.com/user-attachments/assets/6f8b39b7-5b4a-4121-9ffc-46a3b050eed1)
+![Screenshot 2025-06-13 224232](https://github.com/user-attachments/assets/e6e2c68c-f4b1-4d6c-9da0-ecaff88649c9)
+
 
  ## CIRCUIT DIAGRAM (EXPORT THE GRAPHICS TO PDF AND ADD THE SCREEN SHOT HERE): 
  ![image](https://github.com/user-attachments/assets/482a731e-93aa-4a04-b926-17d478304ee6)
